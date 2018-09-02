@@ -1,0 +1,22 @@
+{
+  "name": "mylib",
+  "version": "0.1.0",
+  "summary": "A short description of mylib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Guilherme Bazilio/mylib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guilherme Bazilio": "guilhermebazilio@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Guilherme Bazilio/mylib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "mylib/Classes/**/*"
+}

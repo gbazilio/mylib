@@ -7,6 +7,7 @@
 //
 
 #import "MILViewController.h"
+#import <mylib/MyLib.h>
 
 @interface MILViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MyLib * myLib = [[MyLib alloc] init];
+    NSLog(@"%@", [myLib sayHi]);
 }
 
 - (void)didReceiveMemoryWarning
