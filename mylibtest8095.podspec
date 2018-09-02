@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'mylib'
+  s.name             = 'mylibtest8095'
   s.version          = '0.1.0'
   s.summary          = 'This is a lib for learning how to deploy to CocoaPod'
 
