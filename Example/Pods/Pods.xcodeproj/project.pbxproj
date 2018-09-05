@@ -10,6 +10,8 @@
 		1D3F8216F977B709B2A97534D0F8FE29 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0F7CFB0E796B7B2F08CD2C0CD492 /* MyLib.m */; };
 		26ED9F3614AE1D5E02C1BFC2C5AE01A2 /* Pods-mylib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 578C446240574C4F952505A7F4AA4CF4 /* Pods-mylib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		409F43400A0EA377C67D6A87ABAE0621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4267DC5821409D0C0005B30D /* MyCWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4267DC5621409D0C0005B30D /* MyCWrapper.h */; };
+		4267DC5921409D0C0005B30D /* MyCWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 4267DC5721409D0C0005B30D /* MyCWrapper.c */; };
 		45DD91BBAA74E67A316D213C3AB40B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		54E72FB75F6F27664287813BECBAFBE4 /* mylib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 637B70E18AD83BA5099EA07EC0F57FDE /* mylib-dummy.m */; };
 		7C12169B7E6C03C41D89C0C811B3B788 /* MyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDA7028B82C487FA9DDE54F61936834 /* MyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +54,8 @@
 		27DC13BC172924EA7723BF19EF52719F /* Pods-mylib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mylib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2CE68652752BF1E21967F8AAA4D11AB4 /* mylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C63426E82022CE91720D1664278149B /* Pods-mylib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mylib_Example-dummy.m"; sourceTree = "<group>"; };
+		4267DC5621409D0C0005B30D /* MyCWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyCWrapper.h; path = mylib/Classes/MyCWrapper.h; sourceTree = "<group>"; };
+		4267DC5721409D0C0005B30D /* MyCWrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = MyCWrapper.c; path = mylib/Classes/MyCWrapper.c; sourceTree = "<group>"; };
 		4728AB931385176A6DF10EC8FE2FDF40 /* Pods-mylib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mylib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4798528B6CCFF5A6341C693245622B09 /* Pods-mylib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mylib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BCC9193A14B9AD47E450A8FD928EB14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 				AF0C0F7CFB0E796B7B2F08CD2C0CD492 /* MyLib.m */,
 				C68FBB3091093AABC2C5A3E4185D4132 /* Pod */,
 				7E1533DBA1677B824FAE6CA99566964B /* Support Files */,
+				4267DC5621409D0C0005B30D /* MyCWrapper.h */,
+				4267DC5721409D0C0005B30D /* MyCWrapper.c */,
 			);
 			name = mylib;
 			path = ../..;
@@ -255,6 +261,7 @@
 			files = (
 				D8DE3F733AED072C0ED51AB104CEF6DE /* mylib-umbrella.h in Headers */,
 				7C12169B7E6C03C41D89C0C811B3B788 /* MyLib.h in Headers */,
+				4267DC5821409D0C0005B30D /* MyCWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E72FB75F6F27664287813BECBAFBE4 /* mylib-dummy.m in Sources */,
+				4267DC5921409D0C0005B30D /* MyCWrapper.c in Sources */,
 				1D3F8216F977B709B2A97534D0F8FE29 /* MyLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

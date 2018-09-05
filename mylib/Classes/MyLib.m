@@ -6,11 +6,13 @@
 //
 
 #import "MyLib.h"
+#import "MyCWrapper.h"
 
 @implementation MyLib
 
 -(NSString *)sayHi {
-    return @"Hi";
+    NSInteger aNumber = (NSInteger) getNumber();
+    return [NSString stringWithFormat:@"Hi number %ld.", aNumber];
 }
 
 @end
