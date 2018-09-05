@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mylibtest8095'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'This is a lib for learning how to deploy to CocoaPod'
 
 # This description is used to generate tags and improve search results.
