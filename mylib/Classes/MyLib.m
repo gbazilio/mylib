@@ -12,7 +12,7 @@
 
 -(NSString *)sayHi {
     NSInteger aNumber = (NSInteger) getNumber();
-    return [NSString stringWithFormat:@"Hi number %ld.", aNumber];
+    return [NSString stringWithFormat:@"Hi number %ld.", (long)aNumber];
 }
 
 @end

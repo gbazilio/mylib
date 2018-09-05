@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int getNumber();
+int getNumber(void);
 
 #endif /* MyCWrapper_h */
